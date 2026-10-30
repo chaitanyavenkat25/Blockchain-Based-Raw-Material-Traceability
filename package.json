@@ -1,0 +1,30 @@
+{
+  "name": "blockchain-raw-material-traceability",
+  "version": "1.0.0",
+  "description": "Blockchain-Based Responsible Raw Material Traceability System",
+  "scripts": {
+    "seed": "npm --prefix backend run seed",
+    "test:blockchain": "npm --prefix blockchain test",
+    "test:backend": "npm --prefix backend test",
+    "test:all": "npm run test:blockchain && npm run test:backend",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:node": "npm --prefix blockchain run node",
+    "deploy:local": "npm --prefix blockchain run deploy:local",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:backend && npm run build:frontend"
+  },
+  "keywords": [
+    "blockchain",
+    "traceability",
+    "supply-chain",
+    "responsible-sourcing",
+    "sustainability",
+    "solidity",
+    "react",
+    "typescript"
+  ],
+  "author": "Academic Final Year Project Team",
+  "license": "MIT"
+}
